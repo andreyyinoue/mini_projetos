@@ -8,16 +8,28 @@
     <link rel="stylesheet" href="form001all.css">
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
     <div>
         <h1>Formulário</h1>
-        <form action="#">
-            <input type="text" name="txtnome" id="txtnome" value="Nome completo" required>
-            <input type="date" name="txtdate" id="txtdate" value="Data de nascimento (dd/mm/aaaa)" required>
-            <input type="email" name="txtemail" id="txtemail" value="email" required>
-            <input type="tel" name="txttel" id="txttel" value="Número de telefone" required>
-            <input id="msg" type="text" name="ntext" id="idtext" value="Escreva uma mensagem">
-            <input id="button" type="button" value="Enviar" onclick="submi()">
-        </form>
+        <main id="main">
+            <form action="#" id="forms">
+                <input type="text" name="txtnome" id="txtnome" placeholder="Nome completo" required>
+                <input type="date" name="txtdate" id="txtdate" placeholder="Data de nascimento (dd/mm/aaaa)" required>
+                <input type="email" name="txtemail" id="txtemail" placeholder="email" required>
+                <input type="tel" name="txttel" id="txttel" placeholder="Número de telefone" required>
+                <input id="msg" type="text" name="ntext" id="idtext" placeholder="Escreva uma mensagem">
+                <input id="button" type="button" value="Enviar" onclick="submit()">
+            </form>
+        </main>
     </div>
+    <script>
+        function submit() {
+            let main = window.document.getElementById('main')
+            let forms = document.getElementById('forms')
+            forms.remove()
+        }
+    </script>
 </body>
 </html>

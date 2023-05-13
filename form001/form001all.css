@@ -12,6 +12,27 @@ body{
     color: black;
 }
 
+nav{
+    margin: 20px 10px;
+}
+
+nav > a{
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 12px;
+    margin: 10px;
+    
+}
+
+nav > a:hover{
+    background-color: rgb(146, 59, 146);
+    color: white;
+}
+
 div{
     background-color: rgba(255, 255, 255, 0.644);
     text-align: center;
@@ -43,3 +64,5 @@ input#button:hover{
     background-color: rgb(146, 59, 146);
     color: white;
 }
+
+input#button:
