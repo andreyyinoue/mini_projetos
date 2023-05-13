@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*Versão Mobile*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(imagens/back-mobile.jpg);
+    background-size: cover;
+    color: black;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 10px;
+    
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a#button{
+    display: block;
+    background-color: rgb(148, 86, 184);
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+a#button:hover{
+    background-color: rgb(96, 61, 116);
+}

@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário 001</title>
+    <link rel="stylesheet" href="form001all.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div>
+        <h1>Formulário</h1>
+        <form action="#">
+            <input type="text" name="txtnome" id="txtnome" value="Nome completo" required>
+            <input type="date" name="txtdate" id="txtdate" value="Data de nascimento (dd/mm/aaaa)" required>
+            <input type="email" name="txtemail" id="txtemail" value="email" required>
+            <input type="tel" name="txttel" id="txttel" value="Número de telefone" required>
+            <input id="msg" type="text" name="ntext" id="idtext" value="Escreva uma mensagem">
+            <input id="button" type="button" value="Enviar" onclick="submi()">
+        </form>
+    </div>
 </body>
 </html>
